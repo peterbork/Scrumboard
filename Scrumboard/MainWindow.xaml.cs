@@ -20,6 +20,15 @@ namespace Scrumboard {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+            for (int i = 0; i < 3; i++) {
+                ListBoxItem lbi = new ListBoxItem();
+                lbi.Width = 100;
+                lbi.Height = 100;
+                lbi.Content = "test";
+                lbi.Background = Brushes.Red;
+                ListBoxProductBacklog.Items.Add(lbi);
+            }
+
         }
     }
 }

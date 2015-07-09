@@ -30,6 +30,8 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="422" Margin="265,438,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="422" Margin="567,438,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="422" Margin="870,438,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
+        <ListBox ScrollViewer.VerticalScrollBarVisibility="Disabled" Name="ListBoxProductBacklog" HorizontalAlignment="Left" Height="422" Margin="265,10,0,0" VerticalAlignment="Top" Width="297"/>
+
 
     </Grid>
 </Window>

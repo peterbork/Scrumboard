@@ -1,0 +1,11 @@
+﻿<Window x:Class="Scrumboard.Chat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chat" Height="300" Width="300">
+    <Grid>
+        <TextBox Name="tb_chat" HorizontalAlignment="Left" Height="204" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272"/>
+        <TextBox Name="tb_message" HorizontalAlignment="Left" Height="23" Margin="10,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="192"/>
+        <Button Name="btn_send" Content="Send" HorizontalAlignment="Left" Margin="207,219,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="btn_send_Click"/>
+
+    </Grid>
+</Window>
